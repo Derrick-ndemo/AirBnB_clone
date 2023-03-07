@@ -1,7 +1,6 @@
-# AirBnB clone
+# AirBnB clone 🖥️
 
-
-![Hbnb_img](65f4a1dd9c51265f49d0.png)
+![Hbnb_img](https://github.com/peytonbrsmith/AirBnB_clone_v4/raw/master/65f4a1dd9c51265f49d0.png)
 
 The goal of the project was to deploy a recreation of the [AirBnB website](https://www.airbnb.com/ "AirBnB website").
 
@@ -29,8 +28,8 @@ The goal of the project was to deploy a recreation of the [AirBnB website](https
 
 ## Final product
 
-![](fe2e3e7701dec72ce612472dab9bb55fe0e9f6d4.png)
-![](da2584da58f1d99a72f0a4d8d22c1e485468f941.png)
+![](https://github.com/peytonbrsmith/AirBnB_clone_v4/raw/master/fe2e3e7701dec72ce612472dab9bb55fe0e9f6d4.png)
+![](https://github.com/peytonbrsmith/AirBnB_clone_v4/raw/master/da2584da58f1d99a72f0a4d8d22c1e485468f941.png)
 
 
 ### The console
@@ -40,7 +39,7 @@ The goal of the project was to deploy a recreation of the [AirBnB website](https
     command interpreter
 -   store and persist objects to a file (JSON file)
 
-![](815046647d23428a14ca.png)
+![](https://github.com/peytonbrsmith/AirBnB_clone_v4/raw/master/815046647d23428a14ca.png)
 
 ### Web static
 
@@ -48,14 +47,14 @@ The goal of the project was to deploy a recreation of the [AirBnB website](https
 -   create the HTML of your application
 -   create template of each object
 
-![](87c01524ada6080f40fc.png)
+![](https://github.com/peytonbrsmith/AirBnB_clone_v4/raw/master/87c01524ada6080f40fc.png)
 
 ### MySQL storage
 
 -   replace the file storage by a Database storage
 -   map your models to a table in database by using an O.R.M.
 
-![](5284383714459fa68841.png)
+![](https://github.com/peytonbrsmith/AirBnB_clone_v4/raw/master/5284383714459fa68841.png)
 
 ### Web framework - templating
 
@@ -63,25 +62,25 @@ The goal of the project was to deploy a recreation of the [AirBnB website](https
 -   make your static HTML file dynamic by using objects stored in a file
     or database
 
-![](cb778ec8a13acecb53ef.png)
+![](https://github.com/peytonbrsmith/AirBnB_clone_v4/raw/master/cb778ec8a13acecb53ef.png)
 
 ### RESTful API
 
 -   expose all your objects stored via a JSON web interface
 -   manipulate your objects via a RESTful API
 
-![](06fccc41df40ab8f9d49.png)
+![](https://github.com/peytonbrsmith/AirBnB_clone_v4/raw/master/06fccc41df40ab8f9d49.png)
 
 ### Web dynamic
 
 -   learn JQuery
 -   load objects from the client side by using your own RESTful API
 
-![](d2d06462824fab5846f3.png)
+![](https://github.com/peytonbrsmith/AirBnB_clone_v4/raw/master/d2d06462824fab5846f3.png)
 
 ## Data diagram
 
-![](99e1a8f2be8c09d5ce5ac321e8cf39f0917f8db5.jpg)
+![](https://github.com/peytonbrsmith/AirBnB_clone_v4/raw/master/99e1a8f2be8c09d5ce5ac321e8cf39f0917f8db5.jpg)
 
 ## Synopsis
 This is the 4th and FINAL version of our AirBnB clone project. We will be using python3, RESTful API, MySQL, Flask, and jQuery AJAX
