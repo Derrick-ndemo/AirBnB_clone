@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 """
-A module that impliments the BaseModel Class
+A module that implements the BaseModel class
 """
 
 from uuid import uuid4
 from datetime import datetime
+
 
 class BaseModel:
     """
@@ -13,13 +14,21 @@ class BaseModel:
 
     def __init__(self, *args, **kwargs):
         """
-        initialize the BaseModel class
+        Initialize the BaseModel class
         """
+
         from models import storage
         if not kwargs:
             self.id = str(uuid4())
             self.created_at = self.updated_at = datetime.now()
             storage.new(self)
+        else:
+            for key, value in kwargs.items():
+                if key != '__class__':
+                    if key in ('created_at', 'updated_at'):
+                        setattr(self, key, datetime.fromisoformat(value))
+                    else:
+                        setattr(self, key, value)
 
     def __str__(self):
         """
@@ -33,7 +42,9 @@ class BaseModel:
         """
         Updates 'self.updated_at' with the current datetime
         """
+        from models import storage
         self.updated_at = datetime.now()
+        storage.save()
 
     def to_dict(self):
         """
@@ -51,4 +62,3 @@ class BaseModel:
                 v = self.__dict__[k].isoformat()
                 dict_1[k] = v
         return dict_1
-
