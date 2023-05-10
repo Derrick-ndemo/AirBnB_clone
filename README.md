@@ -1,6 +1,6 @@
 # AirBnB clone 🖥️
 
-![Hbnb_img](https://github.com/peytonbrsmith/AirBnB_clone_v4/raw/master/65f4a1dd9c51265f49d0.png)
+![Hbnb](https://github.com/peytonbrsmith/AirBnB_clone_v4/raw/master/65f4a1dd9c51265f49d0.png)
 
 The goal of the project was to deploy a recreation of the [AirBnB website](https://www.airbnb.com/ "AirBnB website").
 
