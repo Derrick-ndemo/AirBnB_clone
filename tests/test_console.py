@@ -1,13 +1,12 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """
 Unit tests for HBNB console.py
 """
 import unittest
 import sys
 import os
-from models import storage
 from models.engine.file_storage import FileStorage
-from console import HBNBCommand
+from AirBnB_clone.console import HBNBCommand
 from io import StringIO
 from unittest.mock import patch
 from models.amenity import Amenity
@@ -16,6 +15,7 @@ from models.city import City
 from models.place import Place
 from models.review import Review
 from models.state import State
+from models.user import User
 
 
 class TestConsole(unittest.TestCase):
